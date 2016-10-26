@@ -37,11 +37,11 @@ Thermostat.prototype.isPowerSavingModeOn = function() {
 	return this.powerSavingMode === true;
 }
 
-Thermostat.prototype.PowerSavingModeOff = function() {
+Thermostat.prototype.powerSavingModeOff = function() {
 	this.powerSavingMode = false;
 }
 
-Thermostat.prototype.PowerSavingModeOn = function() {
+Thermostat.prototype.powerSavingModeOn = function() {
   this.powerSavingMode = true;
 }
 
@@ -59,7 +59,7 @@ Thermostat.prototype.up = function() {
   this.temperature += 1;
 }
 
-Thermostat.prototype.resetTemperature = function() {
+Thermostat.prototype.reset = function() {
   this.temperature = this.DEFAULT_TEMPERATURE;
 }
 
