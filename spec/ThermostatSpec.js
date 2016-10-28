@@ -2,7 +2,9 @@
 
 describe('Thermostat', function(){
 
+  var Thermostat = require('../src/Thermostat');
   var thermostat;
+
 
   beforeEach(function(){
     thermostat = new Thermostat();

@@ -60,3 +60,6 @@ Thermostat.prototype.colour = function() {
   }
   return 'red';
 }
+
+
+module.exports = Thermostat;
